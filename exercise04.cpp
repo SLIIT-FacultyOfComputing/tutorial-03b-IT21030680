@@ -19,3 +19,15 @@ void print(int len, int wth) {
 }
 
 // Implement the Input Function here
+void input(int len, int wth){
+  int input_len, input_wth;
+
+    cout << "Input value of length : " << input_len<< endl;
+    cout << "Input value of width : " << input_wth<< endl;
+
+    if (input_len==len && input_wth==wth){
+      cout<<"Correct length and width entered";}
+    else{
+      cout<<"Correct length and width entered";}
+
+}
